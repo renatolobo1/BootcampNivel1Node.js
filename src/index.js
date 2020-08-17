@@ -26,7 +26,7 @@ app.put('/projects/:id', (request, response) => {
   ]);
 });
 
-app.put('/projects/:id', (request, response) => {
+app.del('/projects/:id', (request, response) => {
   return response.json([
     'Projeto 1',
     'Projeto 2',
